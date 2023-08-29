@@ -1,0 +1,52 @@
+body {
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgb(0, 0, 0)),
+    url(/assets/images/space-wallpaper.jpg);
+
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.portfolio {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 50px;
+}
+
+.frontend-text {
+  display: flex;
+  width: 91%;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 150px;
+  color: #fff8af;
+  font-family: "Anton", sans-serif;
+  line-height: 1;
+}
+
+.developer-text {
+  display: flex;
+  width: 90%;
+  flex-direction: column;
+  align-items: center;
+  font-size: 280px;
+  color: #fff8af;
+  font-family: "Anton", sans-serif;
+  line-height: 1;
+}
+
+.description {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: justify;
+  width: 91%;
+  font-size: 23px;
+  color: #0fabd1;
+  font-family: Calibri, sans-serif;
+  line-height: 1;
+  font-weight: bold;
+}
