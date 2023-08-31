@@ -26,6 +26,38 @@ body {
   line-height: 1;
 }
 
+.icons {
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: 44%;
+}
+
+.icons a {
+  display: flex;
+  align-items: center;
+  padding: 22px;
+  border-radius: 50%;
+  position: absolute;
+}
+
+.icons a:nth-child(1) {
+  left: 10%;
+}
+
+.icons a:nth-child(2) {
+  left: 45%;
+}
+
+.icons a:nth-child(3) {
+  left: 80%;
+}
+
+.icons a:hover {
+  background: rgba(255, 255, 255, 0.221);
+  transition: all 0.2s;
+}
+
 .developer-text {
   display: flex;
   width: 90%;
