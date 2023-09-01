@@ -1,7 +1,6 @@
 body {
   background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgb(0, 0, 0)),
-    url(/assets/images/space-wallpaper.jpg);
-
+    url(../images/space-wallpaper.jpg);
   display: flex;
   align-items: center;
   flex-direction: column;
