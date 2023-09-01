@@ -42,15 +42,15 @@ body {
 }
 
 .icons a:nth-child(1) {
-  left: 10%;
+  left: 5%;
 }
 
 .icons a:nth-child(2) {
-  left: 45%;
+  left: 40%;
 }
 
 .icons a:nth-child(3) {
-  left: 80%;
+  left: 75%;
 }
 
 .icons a:hover {
