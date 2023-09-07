@@ -81,3 +81,71 @@ body {
   line-height: 1;
   font-weight: bold;
 }
+
+.projects {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 150px;
+  width: 80%;
+  position: relative;
+  z-index: 1;
+}
+
+.projects-text {
+  display: flex;
+  justify-content: center;
+  font-size: 150px;
+  color: #fff8af;
+  font-family: "Anton", sans-serif;
+  line-height: 1;
+}
+
+.projects-slides {
+  position: relative;
+  width: 100%;
+  height: 800px;
+  margin-top: 55px;
+  background-color: rgb(44, 44, 44);
+  z-index: 1;
+}
+
+.border {
+  top: 204px;
+  position: absolute;
+  width: 1500px;
+  height: 800px;
+  border: 1px solid #0fabd1;
+}
+
+.border:nth-child(3) {
+  left: -1%;
+  top: 190px;
+}
+
+.border:nth-child(4) {
+  left: -2%;
+  top: 175px;
+}
+
+.border:nth-child(5) {
+  left: -3%;
+  top: 160px;
+}
+
+.border:nth-child(6) {
+  right: -1%;
+  top: 218px;
+}
+
+.border:nth-child(7) {
+  right: -2%;
+  top: 233px;
+}
+
+.border:nth-child(8) {
+  right: -3%;
+  top: 248px;
+}
